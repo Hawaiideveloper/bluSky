@@ -1,0 +1,8 @@
+echo "# bluSky" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:Hawaiideveloper/bluSky.git
+git push -u origin master
+
+
