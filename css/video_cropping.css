@@ -1,16 +1,21 @@
-#container { width:900px; height:800px; margin:auto; }
+#container {
+    width: 900px;
+    height: 800px;
+    margin: auto;
+}
 
 #outerdiv {
-width:1980px;
-height:846px;
-overflow:hidden;
-position:relative;
+    width: 1980px;
+    height: 846px;
+    overflow: hidden;
+    position: relative;
 }
+
 #innerdiv {
-position:absolute;
-top:-112px;
-left: 500;
-right: -858px;
-width:3680px;
-height:1700px;
+    position: absolute;
+    top: -112px;
+    left: 500;
+    right: -858px;
+    width: 3680px;
+    height: 1700px;
 }
