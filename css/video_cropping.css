@@ -4,18 +4,20 @@
     margin: auto;
 }
 
-#outerdiv {
-    width: 1980px;
-    height: 846px;
-    overflow: hidden;
-    position: relative;
+position:fixed;
+width:3800px;
+height:650px;
+left:-165px;
+overflow:hidden;
+top: 50px;
+
 }
 
 #innerdiv {
-    position: absolute;
-    top: -112px;
-    left: 500;
-    right: -858px;
-    width: 3680px;
-    height: 1700px;
+position: absolute;
+top:-250px;
+left: -425px;
+width:2800px;
+height:200px;
 }
+
