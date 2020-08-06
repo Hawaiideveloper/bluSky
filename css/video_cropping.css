@@ -1,0 +1,21 @@
+#container { width:900px; height:800px; margin:auto; }
+
+#outerdiv {
+position:fixed;
+width:3800px;
+height:650px;
+left:-165px;
+overflow:hidden;
+top: 50px;
+
+}
+
+
+
+#innerdiv {
+position: absolute;
+top:-250px;
+left: -425px;
+width:2800px;
+height:200px;
+}
