@@ -1,10 +1,10 @@
-#container { width:900px; height:800px; margin:auto; }
+#container { width:120%; height:1%; margin:auto; }
 
 #outerdiv {
 position:fixed;
-width:3800px;
+width:110%;
 height:650px;
-left:-165px;
+left:-9%;
 overflow:hidden;
 top: 50px;
 
