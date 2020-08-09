@@ -13,7 +13,7 @@ z-index:19;
 
 
 #innerdiv {
-position: absolute;
+position: relative;
 top:-250px;
 left: -425px;
 width:2800px;
@@ -23,4 +23,9 @@ height:200px;
 .info{
     position: relative;
     z-index: 24;
+}
+video{
+    position: relative;
+    width: 100%;
+    right: 10%;
 }
