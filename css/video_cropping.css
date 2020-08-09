@@ -2,13 +2,12 @@
 
 #outerdiv {
 position: relative;
-width:3800px;
-height:650px;
-left:-165px;
+width:3800px;  /*3800px*/
+height:650px;       
+left:-165px;   /*-165px*/
 overflow:hidden;
-top: -137px;
+top: -137px;   
 z-index:19;
-
 }
 
 
