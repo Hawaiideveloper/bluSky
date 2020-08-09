@@ -1,12 +1,13 @@
 #container { width:900px; height:800px; margin:auto; }
 
 #outerdiv {
-position:fixed;
+position: relative;
 width:3800px;
 height:650px;
 left:-165px;
 overflow:hidden;
-top: 50px;
+top: -137px;
+z-index:19;
 
 }
 
@@ -19,3 +20,4 @@ left: -425px;
 width:2800px;
 height:200px;
 }
+

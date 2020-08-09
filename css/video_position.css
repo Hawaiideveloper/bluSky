@@ -16,6 +16,7 @@
     color: #f1f1f1;
     width: 150%;
     padding: 60px;
+    z-index: 25;
   }
   
   .button {
@@ -28,7 +29,7 @@
     text-decoration: none;
     font: 14px/100% Arial, Helvetica, sans-serif;
     padding: .5em 2em .55em;
-
+    
     -webkit-border-radius: .5em; 
     -moz-border-radius: .5em;
     border-radius: .5em;
