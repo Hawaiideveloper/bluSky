@@ -5,6 +5,7 @@
   body {
     font-family: Arial;
     font-size: 17px;
+    z-index: 0;
   }
   
   
@@ -14,7 +15,7 @@
     top: 0;
     background: rgba(31, 1, 26, 0.521);
     color: #f1f1f1;
-    width: 150%;
+    width: 100%;
     padding: 60px;
     z-index: 25; 
   }
