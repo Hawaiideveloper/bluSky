@@ -10,7 +10,8 @@
   padding: 10px;
   top: -380px;
   position: relative;
-  left: 1180px;
+  left: 87%;  /*column space of submit button
+  */
   height: 300px; /* Should be removed. Only for demonstration */
 }
 
