@@ -1,5 +1,4 @@
-
-  * {
+* {
   box-sizing: border-box;
 }
 
@@ -10,9 +9,11 @@
   padding: 10px;
   top: -380px;
   position: relative;
-  left: 87%;  /*column space of submit button
+  left: 87%;
+  /*column space of submit button
   */
-  height: 300px; /* Should be removed. Only for demonstration */
+  height: 300px;
+  /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
