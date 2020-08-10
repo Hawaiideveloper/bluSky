@@ -12,8 +12,17 @@
         <input type="text" id="fname" name="fname"><br><br>
         <label for="lname">Last name:</label>
         <input type="text" id="lname" name="lname"><br><br>
-         <input type="file" name="name" multiple><br><br>
-         After uploading multiple files, click Submit.<br>
+        <label for="party">Your birthday:
+        <input type="date" name="party" min="1967-01-01" max="2002-01-01">
+        </label><br><br>
+        <label for="cars">Do you need a ride to the event?:</label> <br><br>
+<select id="cars" name="carlist" form="carform">
+  <option value="yes">Yes</option>
+  <option value="no">No</option>
+</select> <br><br>
+        Upload your face, body, and cedula, then click Submit.<br>
+        <input type="file" name="name" multiple><br><br>
+         
          <input type="submit" value="Submit">
       </form>
    </body>
