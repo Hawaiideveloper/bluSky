@@ -1,23 +1,22 @@
-* {
-    box-sizing: border-box;
-  }
-  
   body {
     font-family: Arial;
     font-size: 17px;
     z-index: 0;
-  }
-  
-  
-  
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }  
   .content {
-    position: absolute;
+    position: relative;
     top: 0;
     background: rgba(31, 1, 26, 0.521);
     color: #f1f1f1;
     width: 100%;
-    padding: 60px;
     z-index: 25; 
+  }
+  .content img{
+    position: relative;
+    margin: 2%;
   }
   
   .button {
