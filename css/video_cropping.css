@@ -19,6 +19,6 @@
 .myVideo { /*posicionamiento del video*/
     position: relative;
     width: 100%;
-    top: -25%;
+    bottom: 30%;
     z-index: 19;
 }
