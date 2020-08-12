@@ -5,14 +5,14 @@
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
-  width: 13.33%;
-  padding: 10px;
-  top: -380px;
-  position: relative;
-  left: 87%;
+  width: 10%;
+  position: absolute;
+  left: 85%;
+  bottom: 62%;
   /*column space of submit button
   */
-  height: 300px;
+  height: 30%;
+  z-index: 30;
   /* Should be removed. Only for demonstration */
 }
 

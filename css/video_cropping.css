@@ -16,10 +16,12 @@
     height: 100%;
     overflow: hidden;
     padding: 0;
+    z-index: 19;
 }
 
 .myVideo {
     position: relative;
     width: 100%;
     top: -25%;
+    z-index: 19;
 }
