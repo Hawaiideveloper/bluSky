@@ -57,11 +57,15 @@ input[type=date] {
     font-size: 4rem;
 
   }
-  input[type=file] {
+  input[type=file] { /*nos referimos exactamente a un tipo de input*/
     width: 100%;
     font-size: 2.7rem;
+  }
+  input[type=checkbox] {
+    transform: scale(2.5); /*Podemos manipular el tamaño de la checkbox*/
 
   }
+
 .textoup{
     margin: 0;
     font-size: 2rem;
