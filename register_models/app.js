@@ -44,7 +44,7 @@ app.get('/',function(req,res){
 res.set({ 
 	'Access-control-Allow-Origin': '*'
 	}); 
-return res.redirect('index-form.html'); 
+return res.redirect('index.html'); 
 }).listen(3000) 
 
 
