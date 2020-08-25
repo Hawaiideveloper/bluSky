@@ -2,8 +2,19 @@
 
 
 # Pre-requistes ubuntu 
-sudo apt install npm -y
+#sudo apt install npm -y
 
+# Install mongod public key
+#wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
+
+# Add the install source for MongoDB
+#echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
+
+# Now install stable version
+#sudo apt-get install -y mongodb-org
+
+# To determine which init system is the correct one
+#ps --no-headers -o comm 1
 
 # First, we need to include a few packages for our Nodejs application.
 npm install express --save
@@ -20,6 +31,19 @@ npm install mongoose --save
 
 
 # To start MongoDB type: mongod
+
+#To start MongoDB on Ubuntu 18.04
+#sudo systemctl start mongod
+
+# To check status on MongoDB
+#sudo systemctl status mongod
+
+#To start MongoDB when server starts
+#sudo systemctl enable mongod
+
+#To stop MongoDB in Ubuntu 18.04
+#sudo systemctl stop mongod
+
 # To start on a Mac Apple:
     # brew services start mongodb-community@4.4
 
@@ -31,3 +55,10 @@ To stop on a Mac Apple:
         # type: brew tap mongodb/brew
         # type: brew install mongodb-community@4.4
 
+
+#Uncomment the below if you want to stop unintended upgrades
+#echo "mongodb-org hold" | sudo dpkg --set-selections
+#echo "mongodb-org-server hold" | sudo dpkg --set-selections
+#echo "mongodb-org-shell hold" | sudo dpkg --set-selections
+#echo "mongodb-org-mongos hold" | sudo dpkg --set-selections
+#echo "mongodb-org-tools hold" | sudo dpkg --set-selections
