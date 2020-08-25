@@ -1,6 +1,10 @@
 #!/bin/bash
 
 
+# Pre-requistes ubuntu 
+sudo apt install npm -y
+
+
 # First, we need to include a few packages for our Nodejs application.
 npm install express --save
 
