@@ -48,7 +48,7 @@ npm install mongoose --save
 # To start on a Mac Apple:
     # brew services start mongodb-community@4.4
 
-To stop on a Mac Apple:
+#To stop on a Mac Apple:
     # brew services stop mongodb-community@4.4
 
 # To stop mongod type: sudo killall mongod
