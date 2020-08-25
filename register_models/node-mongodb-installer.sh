@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#This will need more breakouts, but for now it does the trick
 
 # Pre-requistes ubuntu 
 #sudo apt install npm -y
