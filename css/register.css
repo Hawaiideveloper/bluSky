@@ -32,12 +32,24 @@ input[type=file] {
 }
 
 input[type=checkbox] {
-    transform: scale(2.5);
+    transform: scale(4.3);
     /*Podemos manipular el tamaño de la checkbox*/
+    margin: 2%;
 
 }
 
 .textoup {
     margin: 0;
     font-size: 2rem;
+}
+.leerTerminos{
+    color: white;
+    font-size: 2.2rem;
+}
+
+.submit{
+    margin: 1%;
+}
+label{
+    width: auto;
 }
