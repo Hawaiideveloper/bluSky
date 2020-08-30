@@ -1,0 +1,13 @@
+@media screen and (max-width:450px) {/*A 450 px de ancho
+    queremos que las clases tengan un efecto de tamaño y posicion*/
+    Video {
+        height: 100%;
+        top: 0;
+    }
+
+    .column {
+        left: 58%;
+        width: 35%;
+    }
+
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="../images/favicon-16x16.png">
+    <link rel="icon" href="../images/favicon-32x32.png">
+    <link rel="icon" href="../images/favicon-96x96.png">
+    <title>Register for BluSky Bikini model contest</title>
+</head>
+<link rel="stylesheet" href="../css/register.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+
+    <!-- Simulate a smartphone / tablet -->
+    <div class="mobile-container">
+
+        <!-- Top Navigation Menu -->
+      
+        <div style="padding-left:16px">
+            <br><br>
+            <style type="text/css">
+                textarea {
+                    width: 20%;
+                    height: 2em;
+                }
+
+                input,
+                select,
+                label,
+                textarea {
+                    font-size: 250%;
+                }
+            </style>
+            <form action="#" method="POST">
+
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname" required><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for="lsize">Shirt size:</label>
+                <input type="text" id="lsize" name="lsize" required><br><br>
+                <label for="party">Your birthday:
+                    <input type="date" name="party" min="1967-01-01" max="2002-01-01" required>
+                </label><br><br>
+                <label for="cars">Do you need a ride to the event?:</label> <br><br>
+                <select id="cars" name="carlist" form="carform">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select> <br><br>
+                <p class="textoup">Upload your face, body, and cedula, then click Submit.</p>
+                <br>
+                <input type="file" name="file" multiple><br><br>
+                <input type="checkbox" name="terminos" id="terminos" required><label for="terminos"> Terms and Conditions <a href="Terminos.html" class="leerTerminos">Read</a></label>
+                <br><br>
+
+                <input type="submit" class="submit" value="Submit">
+            </form>
+           
+        </div>
+    </div>
+</body>
+
+</html>
