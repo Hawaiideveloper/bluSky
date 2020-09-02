@@ -2,7 +2,7 @@ var express=require("express");
 var bodyParser=require("body-parser"); 
 
 const mongoose = require('mongoose'); 
-mongoose.connect('mongodb://localhost:27017/gfg'); 
+mongoose.connect('mongodb://localhost:test_base'); 
 var db=mongoose.connection; 
 db.on('error', console.log.bind(console, "connection error")); 
 db.once('open', function(callback){ 
@@ -18,8 +18,11 @@ app.use(bodyParser.urlencoded({
 	extended: true
 })); 
 
-app.post('/sign_up', function(req,res){ 
-	var name = req.body.name; 
+app.post('/', function(req,res){ 
+	var fname = req.body.fname;
+	var lname = req.body.lname;
+	var lsize = req.body.lsize;
+	var party = req.body.party;
 	var email =req.body.email; 
 	var pass = req.body.password; 
 	var phone =req.body.phone; 
