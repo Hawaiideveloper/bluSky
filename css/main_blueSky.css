@@ -3,7 +3,7 @@
 
 body {
   /* position: relative;    <!-- https://cssgradient.io/ is where we got the colored background--> */
-  background: rgb(2, 0, 36);
+  
   background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 8%, rgb(54, 117, 189) 100%);
   overflow: hidden;
   /* Hide scrollbars */
