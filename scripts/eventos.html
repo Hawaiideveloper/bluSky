@@ -1,21 +1,88 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eventos</title>
+    <!--adding the favicon: BluSky -->
+    <!--favicon for different displays-->
+    <link rel="icon" href="../images/favicon-16x16.png">
+    <link rel="icon" href="../images/favicon-32x32.png">
+    <link rel="icon" href="../images/favicon-96x96.png">
+
+    <title>Having a BluSky Day</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/main_blueSky.css">
+    <link rel="stylesheet" href="../css/video_position.css">
+    <link rel="stylesheet" href="../css/columns.css">
+    <link rel="stylesheet" href="../css/video_cropping.css">
+    <link rel="stylesheet" href="../css/queryformobile.css">
+    <link rel="stylesheet" href="../css/eventos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--adding croping css to position the video-->
 </head>
 
 <body>
-    <div id="principal">
-        <h3>Calendario de eventos</h3>
-        <ul>
-            <img src="../Flyers_bluSky 2020/flyer 2,2MM.jpg" border="0" alt="" /><br /><span>Descripcion de la
-                imagen</span>
-            
-        </ul>
+    <!-- 
+        <button>Únete aqui</button>
+      -->
+    <div class="topnav">
+        <a href="#home" class="active">
+            <img src="../images/LogoBluSkyTRansp.png" width="150px" height="30px">
+        </a>
+        <div id="myLinks">
+            <a href="../scripts/registro.html">Register</a>
+            <a href="../scripts/Locationmap.html">Location</a>
+            <a href="../scripts/eventos.html">Events</a>
+            <a href="https://api.whatsapp.com/send?phone=50584484661">Contact</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+    <!-------------------- -->
+
+    <!--aqui va las imagenes de los flyers-->
+    <section id="galeria">
+        <header>
+            <h1>Calendario de eventos!!</h1>
+        </header>
+        <article>
+            <img src="../Flyers_bluSky 2020/flyer 2,2MM.jpg" />
+        </article>
+        <article>
+            <img src="../Flyers_bluSky 2020/flyer 2,2MM.jpg" />
+        </article>
+
+        <!-- [...] Aquí se irían repitiendo más elementos <article> con cursos-->
+
+    </section>
+    <!--  -------------   -->
+
 </body>
+
+</copyright>
+</div>
+<footer>
+    <div class="footer">
+        All videos and content is copyrighted and require consent from bluSky Promotions
+        <div class="contador_edit">
+            <img style="border: 0px solid; display: inline;" alt="contador de visitas"
+                src="http://www.websmultimedia.com/contador-de-visitas.php?id=283395"></a>
+        </div>
+    </div>
+</footer>
+
 
 </html>
